@@ -88,7 +88,7 @@ class LaunchTime(object):
         self.writer.writerow(data)
 
 if __name__ == '__main__':
-    weixin = LaunchTime(app='/Users/ljzhang/Downloads/weixin.apk', appPackage='com.tencent.mm', appActivity='com.tencent.mm.ui.LauncherUI')
+    weixin = LaunchTime(app='/Downloads/weixin.apk', appPackage='com.tencent.mm', appActivity='com.tencent.mm.ui.LauncherUI')
     weixin.create_csv_file()
 
     # 运行十次
