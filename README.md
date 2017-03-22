@@ -1,0 +1,2 @@
+# LaunchTimeTest
+借用appium实现对app的启动时间的自动化测试
